@@ -4,7 +4,6 @@ package Dominioo;
 
 public class Curso {
     
-
         private double [] notas;
         private double promedio;
         private int estudiantesEncimaPromedio;
@@ -48,13 +47,12 @@ System.out.println(" Nro del estudiante: "+this.notas[i]);
     public int estudianEncimaPromedio() {
     return this.estudianEncimaPromedio;
     }
-
  
     public void setPromedio(double[] promedio) {
     }
 
-    public String getnroEstudiantesEncimaPromedio() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String getnroEstudiantesEncimaPromedio(){
+       
     }
     
 }
