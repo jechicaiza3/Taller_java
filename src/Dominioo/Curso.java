@@ -23,6 +23,7 @@ System.out.println(" Nro del estudiante: "+this.notas[i]);
    }
     }
     public void setPromedio (){
+        //Cambia el valor de la nota del alumno No1 con este procedimiento
         double promedio=0;
         for (int i=0;i<12;i++){
       this.notas[0]=this.notas[0]+this.notas[i];
